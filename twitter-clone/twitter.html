@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Clone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: Karla, Arial;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      border: solid 2px red;
+      justify-content: space-between;
+      
+    }
+    .sidebar {
+      background-color: lightblue;
+      width: 300px;
+      
+    }
+    .home {
+      background-color: lightpink;
+      width: 600px;
+      
+    }
+    .home-header {
+      display: flex;
+      justify-content: center;
+      border: solid 2px black;
+      margin-top: 20px;
+      
+    }
+    .for-you-section {
+      background-color: lightgreen;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+    .following-section {
+      background-color: lightgrey;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+    .tweet-handle {
+      display: flex;
+      align-items: center;
+    }
+    .profile-picture {
+      width: 60px;
+      height: 60px;
+      border-radius: 30px;
+    }
+    .input-box {
+      width: 300px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-style: none;
+      
+    }
+    .input-box::placeholder {
+      font-size: 17px;
+      font-family: Karla, Arial;
+      font-weight: 500;
+      
+    }
+
+    .trend-section {
+      background-color: lightcoral;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">sidebar</div>
+
+
+    <div class="home">
+      <div>Home</div>
+      <div class="home-header">
+        <div class="for-you-section">For you</div>
+        <div class="following-section">Following</div>
+      </div>
+
+      <div class="tweet-handle">
+        <img src="./accounts-pictures/amani-mychannel.jpg" alt="" class="profile-picture">
+        <div>
+          <input type="text" placeholder="What's happening?" class="input-box">
+          <div>
+            <div>
+              <img src="./twitter-handle-icons/media-icon.png" alt="">
+              <img src="./twitter-handle-icons/gif-icon.png" alt="">
+              <img src="./twitter-handle-icons/happy-emoji-icon.png" alt="">
+              <img src="./twitter-handle-icons/place-marker-icon.png" alt="">
+            </div>
+            <button>Tweet</button>
+          </div>
+        
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="trend-section">
+      <input type="text" placeholder="Search Twitter">
+    </div>
+
+
+  </div>
+</body>
+</html>
