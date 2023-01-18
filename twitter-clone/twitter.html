@@ -52,20 +52,30 @@
       padding-left: 60px;
       padding-right: 60px;
     }
+    .handle-container-main {
+      border-style: solid;
+      border-color: black;
+      border-width: 2px;
+      display: flex;
+      flex-direction: column;
+    }
+
     .tweet-handle {
       display: flex;
       align-items: center;
     }
     .profile-picture {
-      width: 60px;
-      height: 60px;
+      width: 45px;
+      height: 45px;
       border-radius: 30px;
+      margin-top: -60px;
     }
     .input-box {
-      width: 300px;
+      width: 500px;
       padding-top: 10px;
       padding-bottom: 10px;
       border-style: none;
+      margin-bottom: 30px;
       
     }
     .input-box::placeholder {
@@ -73,6 +83,32 @@
       font-family: Karla, Arial;
       font-weight: 500;
       
+    }
+    .container-handle {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .tweet-handle-icon {
+      width: 20px;
+      height: 24px;
+      object-fit: cover;
+      margin-right: 15px;
+    }
+
+    .tweet-button {
+      background-color: rgb(29, 155, 240);
+      color: white;
+      border-style: none;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 25px;
+      font-size: 16px;
+      font-family: Karla, Arial;
+      font-weight: 700;
     }
 
     .trend-section {
@@ -95,16 +131,16 @@
 
       <div class="tweet-handle">
         <img src="./accounts-pictures/amani-mychannel.jpg" alt="" class="profile-picture">
-        <div>
+        <div class="handle-container-main">
           <input type="text" placeholder="What's happening?" class="input-box">
-          <div>
+          <div class="container-handle">
             <div>
-              <img src="./twitter-handle-icons/media-icon.png" alt="">
-              <img src="./twitter-handle-icons/gif-icon.png" alt="">
-              <img src="./twitter-handle-icons/happy-emoji-icon.png" alt="">
-              <img src="./twitter-handle-icons/place-marker-icon.png" alt="">
+              <img src="./twitter-handle-icons/media-icon.png" alt="" class="tweet-handle-icon">
+              <img src="./twitter-handle-icons/gif-icon.png" alt="" class="tweet-handle-icon">
+              <img src="./twitter-handle-icons/happy-emoji-icon.png" alt="" class="tweet-handle-icon">
+              <img src="./twitter-handle-icons/place-marker-icon.png" alt="" class="tweet-handle-icon">
             </div>
-            <button>Tweet</button>
+            <button class="tweet-button">Tweet</button>
           </div>
         
 
