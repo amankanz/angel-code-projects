@@ -17,6 +17,7 @@
     .container {
       display: flex;
       flex-direction: row;
+      height: 1000px;
       border: solid 2px red;
       justify-content: space-between;
       
@@ -31,26 +32,50 @@
       width: 600px;
       
     }
+    .home-title {
+      font-family: Karla, Arial;
+      font-size: 20px;
+      font-weight: 700;
+    }
     .home-header {
       display: flex;
       justify-content: center;
       border: solid 2px black;
       margin-top: 20px;
       
+      
     }
     .for-you-section {
-      background-color: lightgreen;
-      padding-top: 15px;
-      padding-bottom: 15px;
-      padding-left: 60px;
-      padding-right: 60px;
+      background-color: white;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width: 300px;
+      border-style: none;
+      cursor: pointer;
+      transition: background-color 0.15s;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: Karla, Arial;
+      
+    }
+    .for-you-section:hover {
+      background-color: rgb(231, 231, 232);
     }
     .following-section {
-      background-color: lightgrey;
-      padding-top: 15px;
-      padding-bottom: 15px;
-      padding-left: 60px;
-      padding-right: 60px;
+      background-color: white;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width: 300px;
+      border-style: none;
+      cursor: pointer;
+      transition: background-color 0.15s;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: Karla, Arial;
+      
+    }
+    .following-section:hover {
+      background-color: rgb(231, 231, 232);
     }
     .handle-container-main {
       border-style: solid;
@@ -65,10 +90,12 @@
       align-items: center;
     }
     .profile-picture {
-      width: 45px;
-      height: 45px;
-      border-radius: 30px;
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 25px;
       margin-top: -60px;
+      
     }
     .input-box {
       width: 500px;
@@ -76,7 +103,8 @@
       padding-bottom: 10px;
       border-style: none;
       margin-bottom: 30px;
-      
+      margin-top: 20px;
+      margin-left: 10px;
     }
     .input-box::placeholder {
       font-size: 17px;
@@ -91,10 +119,25 @@
       align-items: center;
     }
     .tweet-handle-icon {
-      width: 20px;
+      width: 24px;
       height: 24px;
       object-fit: cover;
       margin-right: 15px;
+      cursor: pointer;
+      border-style: solid;
+      border-width: 2px;
+      border-color: aqua;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+      border-radius: 30px;
+
+      transition: background-color 0.15s;
+
+    }
+    .tweet-handle-icon:hover {
+      background-color: rgb(142, 205, 248);
     }
 
     .tweet-button {
@@ -111,6 +154,22 @@
       font-weight: 700;
     }
 
+    .show-tweet {
+      display: flex;
+      justify-content: center;
+      border-top-style: solid;
+      border-bottom-style: solid;
+      border-top-color: gray;
+      border-bottom-color: gray;
+      border-top-width: 2px;
+      border-bottom-width: 2px;
+      color: rgb(142, 205, 248);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-family: Karla, Arial;
+      font-size: 16px;
+    }
+
     .trend-section {
       background-color: lightcoral;
       width: 300px;
@@ -123,10 +182,10 @@
 
 
     <div class="home">
-      <div>Home</div>
+      <div class="home-title">Home</div>
       <div class="home-header">
-        <div class="for-you-section">For you</div>
-        <div class="following-section">Following</div>
+        <button class="for-you-section">For you</button>
+        <button class="following-section">Following</button>
       </div>
 
       <div class="tweet-handle">
@@ -142,10 +201,14 @@
             </div>
             <button class="tweet-button">Tweet</button>
           </div>
-        
-
         </div>
       </div>
+
+      <div class="show-tweet">Show 175 Tweets</div>
+
+      
+
+
     </div>
 
 
