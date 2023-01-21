@@ -181,6 +181,14 @@
       background-color: lightgreen;
       height: 100px;
     }
+    .tweet-account-picture {
+      width: 45px;
+      height: 45px;
+      border-radius: 23px;
+      object-fit: cover;
+      margin-right: 10px;
+      margin-left: 15px;
+    }
     .tweet-handle-container {
       background-color: lightblue;
 
@@ -188,7 +196,7 @@
     .tweet-handle-account-name {
       display: flex;
       justify-content: space-between;
-      width: 540px;
+      
       border-style: solid;
       border-color: blue;
       border-width: 2px;
@@ -233,6 +241,27 @@
       font-family: Karla, Arial;
       font-size: 15px;
     }
+    .tweet-stats {
+      border-style: solid;
+      border-color: red;
+      border-width: 2px;
+      display: flex;
+      justify-content: space-between;
+      color: rgb(83, 100, 113);
+      
+    }
+    .tweet-stats-icons {
+      height: 20px;
+      width: 25px;
+      margin-right: 15px;
+    }
+    .tweet-stats-icons-upload {
+      height: 18px;
+      width: 18px;
+    }
+    .stats-icons {
+      display: flex;
+    }
 
     .trend-section {
       background-color: lightcoral;
@@ -272,14 +301,43 @@
 
       
       <div class="tweet-container">
-        <div class="thumbnails">image</div>
+        <div class="thumbnails">
+          <img src="./thumbnails/hq720.webp" alt="" class="tweet-account-picture">
+        </div>
         <div class="tweet-handle-container">
           <div class="tweet-handle-account-name">
             <div class="tweet-account-details">Canary Mugume <img src="./twitter-handle-icons/icon-verified-account.png" alt="" class="icon-verified-account"> <span class="tweet-user-address">@CanaryMugume &#183; 1h</span></div>
             <div class="tweet-more-about-account">&#8230;</div>
           </div>
+
           <div class="tweets">What's happening at Entebbe International Airport? What's your story?</div>
-          <div>tweet stats</div>
+
+          <div class="tweet-stats">
+            <div class="stats-icons">
+              <div><img src="./twitter-handle-icons/icon-speech-bubble.png" alt="" class="tweet-stats-icons"></div>
+              235
+            </div>
+
+            <div class="stats-icons">
+              <div><img src="./twitter-handle-icons/icons-retweet.png" alt="" class="tweet-stats-icons"></div>
+              94
+            </div>
+
+            <div class="stats-icons">
+              <div><img src="./twitter-handle-icons/icons-love.png" alt="" class="tweet-stats-icons"></div>
+              1,152
+            </div>
+
+            <div class="stats-icons">
+              <div><img src="./twitter-handle-icons/icons-bar-chart-view.png" alt="" class="tweet-stats-icons"></div>
+              96.9K
+            </div>
+
+            <div class="stats-icons">
+              <div><img src="./twitter-handle-icons/icons-upload.png" alt="" class="tweet-stats-icons-upload"></div>
+            
+            </div>
+          </div>
 
         </div>
       </div>
