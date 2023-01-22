@@ -159,10 +159,8 @@
       justify-content: center;
       border-top-style: solid;
       border-bottom-style: solid;
-      border-top-color: gray;
-      border-bottom-color: gray;
-      border-top-width: 2px;
-      border-bottom-width: 2px;
+      border-color: gray;
+      border-width: 1px;
       color: rgb(142, 205, 248);
       padding-top: 10px;
       padding-bottom: 10px;
@@ -172,9 +170,14 @@
 
     .tweet-container {
       display: flex;
-      border-style: solid;
-      border-color: red;
-      border-width: 2px;
+      
+      border-color: gray;
+      border-width: 1px;
+      border-bottom-style: solid;
+      border-left-style: solid;
+      border-right-style: solid;
+      padding-top: 10px;
+      padding-bottom: 10px;
 
     }
     .thumbnails {
@@ -209,6 +212,7 @@
       border-width: 2px;
       font-weight: 700;
       font-family: Karla, Arial;
+      padding-right: 10px;
     }
     .icon-verified-account {
       height: 20px;
@@ -231,9 +235,8 @@
     }
 
     .tweets {
-      display: flex;
-
-
+      width: 500px;
+      
       border-style: solid;
       border-color: red;
       border-width: 2px;
@@ -310,7 +313,53 @@
             <div class="tweet-more-about-account">&#8230;</div>
           </div>
 
-          <div class="tweets">What's happening at Entebbe International Airport? What's your story?</div>
+          <div class="tweets">
+            "Don't worry, Jen. I will pretend the report leaked, blame Joel for it, and then reject it altogether. Watch me :)"
+          </div>
+
+          <div class="tweet-stats">
+            <div class="stats-icons">
+              <div><img src="./twitter-handle-icons/icon-speech-bubble.png" alt="" class="tweet-stats-icons"></div>
+              235
+            </div>
+
+            <div class="stats-icons">
+              <div><img src="./twitter-handle-icons/icons-retweet.png" alt="" class="tweet-stats-icons"></div>
+              94
+            </div>
+
+            <div class="stats-icons">
+              <div><img src="./twitter-handle-icons/icons-love.png" alt="" class="tweet-stats-icons"></div>
+              1,152
+            </div>
+
+            <div class="stats-icons">
+              <div><img src="./twitter-handle-icons/icons-bar-chart-view.png" alt="" class="tweet-stats-icons"></div>
+              96.9K
+            </div>
+
+            <div class="stats-icons">
+              <div><img src="./twitter-handle-icons/icons-upload.png" alt="" class="tweet-stats-icons-upload"></div>
+            
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="tweet-container">
+        <div class="thumbnails">
+          <img src="./thumbnails/hq720 (1).webp" alt="" class="tweet-account-picture">
+        </div>
+        <div class="tweet-handle-container">
+          <div class="tweet-handle-account-name">
+            <div class="tweet-account-details">BOBI WINE <img src="./twitter-handle-icons/icon-verified-account.png" alt="" class="icon-verified-account"> <span class="tweet-user-address">@HEBobiwine &#183; 18h</span></div>
+            <div class="tweet-more-about-account">&#8230;</div>
+          </div>
+
+          <div class="tweets">
+            "Don't worry, Jen. I will pretend the report leaked, blame Joel for it, and then reject it altogether. Watch me :)"
+          </div>
 
           <div class="tweet-stats">
             <div class="stats-icons">
