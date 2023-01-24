@@ -1,0 +1,9 @@
+.sidebar {
+  background-color: lightblue;
+  width: 300px;
+  
+}
+.sidebar-icons {
+  display: flex;
+  align-items: center;
+}
