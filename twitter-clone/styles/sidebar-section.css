@@ -3,7 +3,72 @@
   width: 300px;
   
 }
-.sidebar-icons {
+.twitter-logo-image {
+  height: 30px;
+  width: 30px;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+  border-radius: 25px;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.twitter-logo-image:hover {
+  background-color: rgb(225, 238, 246);
+}
+
+.sidebar-icons-container {
   display: flex;
-  align-items: center;
+  width: 200px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: lightpink;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  border-radius: 20px;
+  
+}
+.sidebar-icons {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.messages-icon, .lists-icon {
+  width: 20px;
+ 
+}
+.sidebar-icon-title {
+  font-family: Karla, Arial;
+  font-size: 20px;
+}
+
+.sidebar-tweet-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+
+  border-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 20px;
+
+
+}
+.sidebar-elements-container {
+  border-color: red;
+  border-width: 2px;
+  border-style: solid;
+
+  
+  
 }
