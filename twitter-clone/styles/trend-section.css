@@ -2,3 +2,32 @@
   background-color: lightcoral;
   width: 300px;
 }
+
+.input-box {
+  display: flex;
+  width: 260px;
+}
+.search-button {
+  width: 38px;
+  border-style: none;
+  background-color: rgb(239, 243, 244);
+  
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.trend-section-inputbox {
+  width: 250px;
+  border-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  background-color: rgb(239, 243, 244);
+  font-size: 16px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  
+}
+.trend-section-inputbox::placeholder {
+  font-size: 16px;
+  color: rgb(86, 103, 116);
+}
