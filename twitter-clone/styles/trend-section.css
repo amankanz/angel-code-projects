@@ -31,3 +31,50 @@
   font-size: 16px;
   color: rgb(86, 103, 116);
 }
+
+.trend-section-for-user {
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  width: 240px;
+  margin-left: 15px;
+
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.trend-for-user-title {
+  font-size: 26px;
+  font-weight: 700;
+}
+.trend-for-user {
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.trend-titles {
+  background-color: lightgreen;
+  height: 60px;
+}
+.trend-type {
+  color: gray;
+}
+.trend-user {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+.more-about-trend {
+  background-color: lightgrey;
+}
+
+
