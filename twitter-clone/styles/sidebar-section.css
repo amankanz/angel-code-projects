@@ -16,6 +16,7 @@
   padding-bottom: 5px;
   padding-left: 5px;
   padding-right: 5px;
+  cursor: pointer;
 }
 .twitter-logo-image:hover {
   background-color: rgb(225, 238, 246);
@@ -53,6 +54,7 @@
 .sidebar-icon-title {
   font-family: Karla, Arial;
   font-size: 20px;
+  margin-left: 10px;
 }
 
 .sidebar-tweet-button {
@@ -64,8 +66,8 @@
   border-style: none;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 75px;
+  padding-right: 75px;
   border-radius: 30px;
   margin-top: 8px;
 
@@ -78,29 +80,41 @@
 
 .sidebar-user-container {
   display: flex;
+  width: 250px;
   align-items: center;
 
   border-width: 2px;
   border-style: solid;
   border-color: blue;
 
-  margin-top: 55px;
+  margin-top: 30px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 5px;
+
+  border-radius: 60px;
+  cursor: pointer;
 }
+.sidebar-user-container:hover {
+  background-color: rgb(231, 231, 232);
+}
+
+
 .sidebar-user-profile {
-  background-color: lightpink;
-  width: 60px;
-  height: 80px;
   display: flex;
   align-items: center;
   
 }
 .sidebar-user-image {
-  width: 50px;
-  height: 50px;
-  border-radius: 30px;
+  width: 45px;
+  height: 45px;
+  border-radius: 20px;
   object-fit: cover;
   text-align: middle;
-  cursor: pointer;
+
+
   
 }
 
@@ -108,15 +122,15 @@
   background-color: lightgreen;
   display: flex;
   flex-direction: column;
-  margin-left: 5px;
+  margin-left: 13px;
 }
 .sidebar-user-name {
   font-weight: 700;
-  cursor: pointer;
+  
 }
 .sidebar-twitter-username {
   color: gray;
-  cursor: pointer;
+  
 }
 
 .sidebar-user-more {
@@ -127,7 +141,7 @@
   font-weight: 700;
 
   margin-left: 15px;
-  cursor: pointer;
+  
 }
 
 
@@ -136,4 +150,35 @@
   border-color: red;
   border-width: 2px;
   border-style: solid;
+}
+
+.home-logo, .notification-logo {
+  position: relative;
+}
+.home-notification {
+  position: absolute;
+
+  background-color: rgb(29, 155, 240);
+
+  height: 9px;
+  width: 9px;
+  border-radius: 5px;
+
+  top: -4px;
+  right: 7px;
+}
+
+.bell-notification {
+  position: absolute;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  font-family: Karla, Arial;
+  font-size: 15px;
+
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 10px;
+
+  top: -8px;
+  right: 3px;
 }

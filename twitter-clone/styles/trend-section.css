@@ -1,11 +1,11 @@
 .trend-section {
   background-color: lightcoral;
-  width: 300px;
+  width: 400px;
 }
 
 .input-box {
   display: flex;
-  width: 260px;
+  width: 360px;
 }
 .search-button {
   width: 38px;
@@ -16,7 +16,7 @@
   border-bottom-left-radius: 20px;
 }
 .trend-section-inputbox {
-  width: 250px;
+  width: 350px;
   border-style: none;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -36,30 +36,36 @@
   border-width: 2px;
   border-style: solid;
   border-color: white;
-  width: 240px;
+  width: 350px;
   margin-left: 15px;
 
   border-radius: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+
   background-color: rgb(239, 243, 244);
 }
 
 .trend-for-user-title {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 15px;
 }
 .trend-for-user {
   border-width: 2px;
   border-style: solid;
   border-color: blue;
 
-  margin-top: 15px;
+  padding-top: 15px;
+  padding-left: 20px;
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
   
+}
+.trend-for-user:hover {
+  background-color: rgb(231, 231, 232);
 }
 .trend-titles {
   background-color: lightgreen;
@@ -67,9 +73,10 @@
 }
 .trend-type {
   color: gray;
+  font-size: 13px;
 }
 .trend-user {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
 }
 
@@ -78,6 +85,44 @@
   background-color: lightgrey;
   font-size: 20px;
   font-weight: 700;
+
+  cursor: pointer;
 }
 
 
+.show-more-section {
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  color: rgb(12, 135, 218);
+  cursor: pointer;
+}
+.show-more-section:hover {
+  background-color: rgb(231, 231, 232);
+}
+
+.terms-and-condition-section {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: gray;
+  
+
+  width: 330px;
+  margin-top: 15px;
+  margin-left: 20px;
+
+  padding-top: 15px;
+  padding-left: 15px;
+
+  font-size: 14px;
+  color: gray;
+}
+.inline-terms-and-condions-style {
+  margin-left: 6px;
+  margin-right: 6px;
+}
