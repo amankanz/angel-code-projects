@@ -1,5 +1,4 @@
 .trend-section {
-  background-color: lightcoral;
   width: 400px;
 }
 
@@ -33,12 +32,12 @@
 }
 
 .trend-section-for-user {
-  border-width: 2px;
-  border-style: solid;
-  border-color: white;
   width: 350px;
   margin-left: 15px;
 
+  border-width: 2px;
+  border-style: solid;
+  border-color: lightpink;
   border-radius: 15px;
 
   background-color: rgb(239, 243, 244);
@@ -53,10 +52,6 @@
   padding-right: 15px;
 }
 .trend-for-user {
-  border-width: 2px;
-  border-style: solid;
-  border-color: blue;
-
   padding-top: 15px;
   padding-left: 20px;
   display: flex;
@@ -68,7 +63,6 @@
   background-color: rgb(231, 231, 232);
 }
 .trend-titles {
-  background-color: lightgreen;
   height: 60px;
 }
 .trend-type {
@@ -91,10 +85,8 @@
 
 
 .show-more-section {
-  border-width: 2px;
-  border-style: solid;
-  border-color: blue;
-
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   padding-left: 20px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -125,4 +117,11 @@
 .inline-terms-and-condions-style {
   margin-left: 6px;
   margin-right: 6px;
+}
+
+.terms-condition-underline {
+  cursor: pointer;
+}
+.terms-condition-underline:hover {
+  text-decoration: underline;
 }
