@@ -1,7 +1,6 @@
 .home {
-  background-color: ;
   width: 615px;
-  border-right: gray solid 1px;
+  border-right: rgb(221, 218, 218) solid 1px;
   
 }
 .home-title {
@@ -14,8 +13,9 @@
 .home-header {
   display: flex;
   justify-content: center;
-  border-bottom: solid 1px gray;
+  border-bottom: solid 1px rgb(221, 218, 218);
   margin-top: 15px;
+  margin-bottom: 5px;
   
   
 }
@@ -52,9 +52,7 @@
   background-color: rgb(231, 231, 232);
 }
 .handle-container-main {
-  border-style: solid;
-  border-color: black;
-  border-width: 2px;
+
   display: flex;
   flex-direction: column;
 }
@@ -69,7 +67,7 @@
   height: 46px;
   border-radius: 25px;
 
-  margin-top: -70px;
+  margin-top: -55px;
   margin-left: 35px;
 
   display: flex;
@@ -82,11 +80,7 @@
   height: 48px;
   object-fit: cover;
   border-radius: 25px;
-  
-  
   cursor: pointer;
-  
-  
 }
 .profile-picture:hover {
   opacity: 0.85;
@@ -96,13 +90,13 @@
   padding-top: 10px;
   padding-bottom: 10px;
   border-style: none;
-  margin-bottom: 30px;
-  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 15px;
   margin-left: 15px;
 }
 .input-box::placeholder {
   font-size: 23px;
-  color: rgb(89, 96, 102);
+  color: rgb(109, 121, 131);
   font-family: Karla, Arial;
   font-weight: 500;
   
@@ -123,10 +117,6 @@
   margin-right: 0px;
   cursor: pointer;
 
-  border-style: solid;
-  border-width: 2px;
-  border-color: aqua;
-
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 6px;
@@ -136,7 +126,7 @@
   transition: background-color 0.15s;
 }
 .location-icon {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .tweet-handle-icon:hover {
@@ -160,15 +150,22 @@
 .show-tweet {
   display: flex;
   justify-content: center;
+
   border-top-style: solid;
   border-bottom-style: solid;
-  border-color: gray;
+  border-color: rgb(221, 218, 218);
   border-width: 1px;
-  color: rgb(142, 205, 248);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  
+  color: rgb(29, 155, 240);
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
   font-family: Karla, Arial;
-  font-size: 16px;
+  font-size: 17px;
+}
+.show-tweet:hover {
+  background-color: rgb(247, 247, 247);
 }
 
 .tweet-container {
