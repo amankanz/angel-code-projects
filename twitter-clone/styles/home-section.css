@@ -1,18 +1,21 @@
 .home {
-  background-color: lightpink;
-  width: 635px;
+  background-color: ;
+  width: 615px;
+  border-right: gray solid 1px;
   
 }
 .home-title {
   font-family: Karla, Arial;
   font-size: 20px;
   font-weight: 700;
+  margin-left: 15px;
+  cursor: pointer;
 }
 .home-header {
   display: flex;
   justify-content: center;
-  border: solid 2px black;
-  margin-top: 20px;
+  border-bottom: solid 1px gray;
+  margin-top: 15px;
   
   
 }
@@ -20,13 +23,13 @@
   background-color: white;
   padding-top: 20px;
   padding-bottom: 20px;
-  width: 300px;
+  width: 350px;
   border-style: none;
   cursor: pointer;
-  transition: background-color 0.15s;
   font-size: 16px;
   font-weight: 700;
   font-family: Karla, Arial;
+  transition: background-color 0.15s;
   
 }
 .for-you-section:hover {
@@ -60,13 +63,33 @@
   display: flex;
   align-items: center;
 }
+.profile-picture-box {
+  background-color: black;
+  width: 46px;
+  height: 46px;
+  border-radius: 25px;
+
+  margin-top: -70px;
+  margin-left: 35px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
 .profile-picture {
-  width: 50px;
-  height: 50px;
+  width: 48px;
+  height: 48px;
   object-fit: cover;
   border-radius: 25px;
-  margin-top: -60px;
   
+  
+  cursor: pointer;
+  
+  
+}
+.profile-picture:hover {
+  opacity: 0.85;
 }
 .input-box {
   width: 500px;
@@ -75,10 +98,11 @@
   border-style: none;
   margin-bottom: 30px;
   margin-top: 20px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .input-box::placeholder {
-  font-size: 17px;
+  font-size: 23px;
+  color: rgb(89, 96, 102);
   font-family: Karla, Arial;
   font-weight: 500;
   
@@ -89,24 +113,32 @@
   justify-content: space-between;
   align-items: center;
 }
+.tweet-handle-icons-container {
+  margin-left: 12px;
+}
 .tweet-handle-icon {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   object-fit: cover;
-  margin-right: 15px;
+  margin-right: 0px;
   cursor: pointer;
+
   border-style: solid;
   border-width: 2px;
   border-color: aqua;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+
   border-radius: 30px;
-
   transition: background-color 0.15s;
-
 }
+.location-icon {
+  margin-left: 20px;
+}
+
 .tweet-handle-icon:hover {
   background-color: rgb(142, 205, 248);
 }
