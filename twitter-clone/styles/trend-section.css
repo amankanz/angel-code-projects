@@ -2,17 +2,13 @@
   width: 450px;
 }
 
-.input-box {
+.input-box-trend {
   display: flex;
-  width: 360px;
+  width: 350px;
 
-  border-width: 2px;
-  border-style: solid;
-  border-color: red;
-
-  
   margin-left: 30px;
-  margin-top: 0;
+  margin-top: 5px;
+  margin-bottom: 20px;
 
   padding-top: 0;
   padding-bottom: 0;
@@ -24,12 +20,21 @@
   
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+
+  padding-left: 18px;
+  
 }
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+
 .trend-section-inputbox {
   width: 350px;
   border-style: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
 
   background-color: rgb(239, 243, 244);
   font-size: 16px;
@@ -38,7 +43,7 @@
   
 }
 .trend-section-inputbox::placeholder {
-  font-size: 16px;
+  font-size: 15px;
   color: rgb(86, 103, 116);
   
 }
@@ -54,7 +59,7 @@
 
 .trend-for-user-title {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 800;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -106,6 +111,7 @@
 
   color: rgb(116, 120, 122);
   cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
 }
 .more-about-trend:hover {
   background-color: rgb(218, 232, 240);
@@ -128,20 +134,20 @@
 }
 
 .terms-and-condition-section {
-  border-top-width: 1px;
+  border-top-width: 2px;
   border-top-style: solid;
-  border-top-color: gray;
+  border-top-color: rgb(247, 249, 249);
   
 
   width: 330px;
   margin-top: 15px;
-  margin-left: 20px;
+  margin-left: 35px;
 
   padding-top: 15px;
   padding-left: 15px;
 
   font-size: 14px;
-  color: gray;
+  color: rgb(89, 96, 102);
 }
 .inline-terms-and-condions-style {
   margin-left: 6px;
