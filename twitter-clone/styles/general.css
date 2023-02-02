@@ -10,8 +10,6 @@ body {
   display: flex;
   flex-direction: row;
   height: 1090px;
- 
-  justify-content: space-between;
   
 }
 
