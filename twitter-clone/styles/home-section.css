@@ -1,5 +1,5 @@
 .home {
-  background-color: lightpink;
+  width: 610px;
   border-right: rgb(221, 218, 218) solid 1px;
   border-left: rgb(221, 218, 218) solid 1px;
   
@@ -38,6 +38,7 @@
 }
 .following-section {
   background-color: white;
+  color: rgb(109, 121, 131);
   padding-top: 20px;
   padding-bottom: 20px;
   width: 300px;
@@ -193,9 +194,13 @@
   padding-top: 10px;
   padding-bottom: 10px;
 
+  cursor: pointer;
+
+}
+.tweet-container:hover {
+  background-color: rgb(247, 247, 247);
 }
 .thumbnails {
-  background-color: lightgreen;
   height: 100px;
 }
 .tweet-account-picture {
@@ -206,25 +211,15 @@
   margin-right: 10px;
   margin-left: 15px;
 }
-.tweet-handle-container {
-  background-color: lightblue;
 
-}
 .tweet-handle-account-name {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-  border-style: solid;
-  border-color: blue;
-  border-width: 2px;
 
 }
 .tweet-account-details {
   display: flex;
-  border-style: solid;
-  border-color: red;
-  border-width: 2px;
   font-weight: 700;
   font-family: Karla, Arial;
   padding-right: 10px;
@@ -245,26 +240,14 @@
   color: gray;
   font-size: 25px;
   
-  border-style: solid;
-  border-color: red;
-  border-width: 2px;
-  
 }
 
 .tweets {
   width: 500px;
-  
-  border-style: solid;
-  border-color: red;
-  border-width: 2px;
-
   font-family: Karla, Arial;
   font-size: 15px;
 }
 .tweet-stats {
-  border-style: solid;
-  border-color: red;
-  border-width: 2px;
   display: flex;
   justify-content: space-between;
   color: rgb(83, 100, 113);
@@ -278,10 +261,6 @@
   height: 15px;
   width: 20px;
   margin-right: 3px;
-
-  border-color: blue;
-  border-width: 2px;
-  border-style: solid;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-right: 6px;
@@ -312,6 +291,7 @@
   border-color: blue;
   border-width: 2px;
   border-style: solid;
+
   padding-top: 5px;
   padding-bottom: 5px;
   padding-right: 14px;

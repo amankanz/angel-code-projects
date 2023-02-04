@@ -1,5 +1,5 @@
 .sidebar {
-  background-color: lightblue;
+  width: 315px;
 }
 .twitter-logo-image {
   height: 30px;
@@ -27,7 +27,7 @@
   padding-left: 10px;
   border-radius: 30px;
 
-  margin-left: 40px;
+  margin-left: 55px;
 
   cursor: pointer;
   transition: background-color 0.15s;
@@ -64,12 +64,12 @@
   border-style: none;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 85px;
+  padding-right: 85px;
   border-radius: 30px;
 
   margin-top: 8px;
-  margin-left: 40px;
+  margin-left: 55px;
 
   cursor: pointer;
   transition: background-color 0.15s;
