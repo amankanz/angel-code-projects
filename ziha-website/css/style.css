@@ -233,7 +233,7 @@ h1 span {
     bottom: 0;
     width: 60%;
     height: 50%;
-    background: #000;
+    background: #3a3a3a;
     z-index: 2;
     padding: 6% 9%;
     transition: .3s right;
