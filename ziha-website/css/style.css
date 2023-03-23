@@ -263,4 +263,93 @@ h1 span {
   nav .nav_list.open {
     right: 0;
   }
+
+
+  /*media query of container*/
+  .conatiner {
+    padding-top: 50px; 
+  }
+  .conatiner .hero_text {
+    margin-bottom: 30px;
+  }
+  .conatiner .hero_text h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 10px 0 15px;
+  }
+  .conatiner .hero_text h1:nth-child(3) {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 10px 0 15px;
+  }
+  
+  h1 span {
+    color: #2ecc71;
+  }
+  
+  .conatiner .hero_text h3 {
+    color: #eee;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  .conatiner .hero_text p {
+    width: 570px;
+    max-width: 100%;
+    color: #eee;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .social a {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #eee;
+    cursor: pointer;
+    margin-right: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+    transition: .4s;
+  }
+  .social a:hover {
+    transform: scale(1.1);
+    background: #2ecc71;
+  }
+  
+  .conatiner .hero_text button {
+    color: #eee;
+    background: #2ecc71;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 6px 20px;
+    line-height: 24px;
+    border: 2px solid #2ecc71;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .4s;
+  }
+  .conatiner .hero_text button:hover {
+    background: transparent;
+    border: 2px solid #2ecc71;
+    color: #2ecc71;
+  }
+  
+  .conatiner .bottom {
+    margin-top: 50px;
+    padding-bottom: 10px;
+  }
+  .conatiner .bottom p {
+    color: #eee;
+    letter-spacing: 2px;
+    font-size: 12px;
+  }
 }
