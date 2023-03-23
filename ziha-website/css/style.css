@@ -58,7 +58,7 @@ nav .hamb {
   right: 3%;
   top: 60px;
   z-index: 5;
-  background: #fff;
+  background: transparent;
   position: absolute;
   cursor: pointer;
   display: none;
@@ -116,5 +116,151 @@ nav .nav_list li.btn:hover a {
 }
 
 .conatiner {
-  padding-top: 190px;
+  padding-top: 50px; 
+}
+.conatiner .hero_text {
+  margin-bottom: 30px;
+}
+.conatiner .hero_text h1 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 15px 0 15px;
+}
+.conatiner .hero_text h1:nth-child(3) {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 15px 0 15px;
+}
+
+h1 span {
+  color: #2ecc71;
+}
+
+.conatiner .hero_text h3 {
+  color: #eee;
+  font-weight: 400;
+  font-size: 17px;
+}
+.conatiner .hero_text p {
+  width: 570px;
+  max-width: 100%;
+  color: #eee;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.social a {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  color: #eee;
+  cursor: pointer;
+  margin-right: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+  transition: .4s;
+}
+.social a:hover {
+  transform: scale(1.1);
+  background: #2ecc71;
+}
+
+.conatiner .hero_text button {
+  color: #eee;
+  background: #2ecc71;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 30px;
+  line-height: 24px;
+  border: 2px solid #2ecc71;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .4s;
+}
+.conatiner .hero_text button:hover {
+  background: transparent;
+  border: 2px solid #2ecc71;
+  color: #2ecc71;
+}
+
+.conatiner .bottom {
+  margin-top: 60px;
+  padding-bottom: 10px;
+}
+.conatiner .bottom p {
+  color: #eee;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+@media(max-width: 930px) {
+  nav .hamb {
+    display: initial;
+  }
+
+  .click {
+    top: 46px;
+  }
+  .click span {
+    position: absolute;
+    margin-top: 12px;
+  }
+  .click span:first-child {
+    transform: rotate(-40deg);
+  }
+  .click span:nth-child(2) {
+    opacity: 0;
+    margin: 0;
+  }
+  .click span:last-child {
+    transform: rotate(40deg);
+    top: 0;
+  }
+
+  nav .nav_list {
+    position: absolute;
+    top: 90px;
+    right: -65%;
+    bottom: 0;
+    width: 60%;
+    height: 50%;
+    background: #000;
+    z-index: 2;
+    padding: 6% 9%;
+    transition: .3s right;
+    border-radius: 10px;
+  }
+
+  nav .nav_list li {
+    display: block;
+  }
+  nav .nav_list li a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  nav .nav_list li.btn a {
+    position: absolute;
+    bottom: 0%;
+    right: 20%;
+    left: 20%;
+    padding: 7px 15px;
+    font-size: 14px;
+  }
+  nav .nav_list.open {
+    right: 0;
+  }
 }

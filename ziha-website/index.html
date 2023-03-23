@@ -37,7 +37,8 @@
       <div class="conatiner">
         <div class="hero_text">
           <h3>Hi, There!</h3>
-          <h1>I Am <span>Ziha Amani</span></h1>
+          <h1>This is <span>Ziha Amani.</span></h1>
+          <h1>i am <span class="input"></span></h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore veniam amet iure ad non consequatur reprehenderit sequi aspernatur nam expedita.
           </p>
@@ -62,6 +63,17 @@
 
 
 
-  <script src="./js/zahi-website.js"></script>
+  <script type="text/javascript" src="./js/zahi-website.js"></script>
+
+  <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+  <script>
+    var type = new Typed(".input", {
+      strings: ["Software Engineer!", "Front-End Developer!"],
+      typeSpeed: 70,
+      backspeed: 60,
+      loop: true
+    })
+  </script>
 </body>
 </html>
