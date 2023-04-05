@@ -855,7 +855,34 @@ main {
   display: flex;
   gap: 15px;
   align-items: center;
+  margin: 30px 0;
+}
+#contact .contact_row .contact_left .icon_box .icon i {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid var(--themeColor);
+  text-align: center;
+  line-height: 46px;
+  font-size: 20px;
+  color: var(--themeColor);
+  transition: 0.5s;
 
+}
+#contact .contact_row .contact_left .icon_box:hover .icon i {
+  background: var(--themeColor);
+  color: var(--bgColor);
+}
+#contact .contact_row .contact_left .icon_box h4 {
+  font-size: 20px;
+  color: var(--sideBGColor);
+  font-weight: 600;
+}
+#contact .contact_row .contact_left .icon_box h4 + p {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--textColor);
+  
 }
 
 /*50%*/
